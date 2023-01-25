@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+.App{
+  display: flex;
+  background-color: rgb(52, 62, 59);
+  height: 100vh;
+  color: white;
+}
+.sidemenu{
+width: 260px;
+height: 100vh;
+background-color: #202123;
+}
+.chatBox{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+  background-color: #343541;
+
+}
+
+.chatMenuButton{
+  padding: 12px;
+  border: 1px solid #ffffff33;
+  border-radius: 5px;
+  text-align: left;
+  margin: 10px;
+  transition: ease 0.25s all;
+}
+.chatMenuButton:hover{
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.1) ;
+}
+.chatMenuButton span{
+  padding-right:10px;
+}
+
+/* Input */
+.chatInput{
+  margin-left: 25%;
+}
+.chatInputTextarea{
+  background-color: #40414F;
+  margin-left: 50%;
+  margin: 5px;
+  width: 50vw;
+  height: 45px;
+  padding: 12px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  box-shadow: 8px ;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.356);
+}
+
+/* Chat Log */
+.chatLog{
+text-align: left;
+}
+
+.chatMessage.chatGpt{
+background-color: #444654;
+}
+
+.avatar{
+background: white;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+}
+.avatar  img{
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  }
+.message{
+padding-left: 40px;
+}
+.chat-message-center{
+  display: flex;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;  
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
